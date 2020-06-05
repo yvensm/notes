@@ -1,3 +1,6 @@
+<div style="max-width:200px !important"><a href="https://www.docker.com/"><img src="
+https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png" /></a></div>
+
 - [1. :wrench: Criando um container](#1-wrench-criando-um-container)
   - [1.1 Baixando a imagem base](#11-baixando-a-imagem-base)
   - [1.2 Dockerfile](#12-dockerfile)
@@ -6,10 +9,11 @@
   - [1.3 Criando uma imagem](#13-criando-uma-imagem)
   - [](#)
 
+
 # 1. :wrench: Criando um container  
 Nessa seção descreverei os passos para inicializar um container, como exemplo utilizarei a criação de um container servidor web com [nginx](https://www.nginx.com/).
 
-<div style="width:200px"><a href="https://www.nginx.com/"><img src="https://www.nginx.com/wp-content/uploads/2018/08/NGINX-logo-rgb-large.png" /></a></div>
+<div style="max-width:200px !important"><a href="https://www.nginx.com/"><img src="https://www.nginx.com/wp-content/uploads/2018/08/NGINX-logo-rgb-large.png" /></a></div>
 
 
 ## 1.1 Baixando a imagem base
