@@ -77,7 +77,7 @@ Direto ao ponto, vamos criar e executar o container em um único comando.
 
 # 2. 👀 Tornando um container visível para outro
 
-Podemos permitir que um container enxerge outro container, isso pode ser útil para aplicações em que a API e interface Web rodem na mesma maquina.
+Podemos permitir que um container enxergue outro container, isso pode ser útil para aplicações em que a API e interface Web rodem na mesma maquina.
 
 No exemplo a seguir criaremos 2 containers onde o segundo será visível para o primeiro.
 
@@ -87,7 +87,7 @@ No exemplo a seguir criaremos 2 containers onde o segundo será visível para o 
     //container 2
     foo@bar:~$ docker run -d -p 81:80 --link=sample1 --expose="80" --name sample2 sample
 ```
-O parâmetro `--link` permite definir que um container possa visualizar o container criado.
+O parâmetro `--link` permite definir o um container que poderá visualizar o container criado.
 
 O parâmetro `--expose` define a porta que será exposta para o container alvo.
 
@@ -104,7 +104,7 @@ Para executar comando dentro de um container devemos utilizar o seguinte comando
     foo@bar:~$ docker exec -it nome-do-conainer comando
 ```
 
-Por exemplo, para visualizar o ip do container 
+Por exemplo, para visualizar o ip do container:
 
 ```shell 
     foo@bar:~$ docker exec -it nome-do-conainer ipconfig
